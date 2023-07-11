@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ch">
+<head>
+    <title>日记</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: row;
+            font-family: Arial, sans-serif;
+            background-color: black;
+            color: #d7d7d7;
+        }
+
+        #sidebar {
+            position: fixed;
+            width: 200px;
+            padding: 20px;
+        }
+
+        #content {
+            flex-grow: 1;
+            padding: 20px;
+            margin-left: 220px; /* 侧边栏的宽度加上间距 */
+        }
+
+        h1 {
+            text-align: center;
+            margin-left: -100px; /* 侧边栏的宽度加上间距 */
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #d7d7d7;
+        }
+
+        a:hover {
+            text-decoration: none;
+            color: #ff0000;
+        }
+    </style>
+</head>
+<body>
+<div id="sidebar">
+    <a class="button" href="list.html">
+        <h2>目录</h2>
+    </a>
+    <ul>
+        <li>
+            <a href="#chapter0">
+                <h4>第一章</h4>
+            </a>
+            <a href="#chapter1">
+                <h5>一幕&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;地狱</h5>
+            </a></li>
+    </ul>
+</div>
+<div id="content">
+    <h1 id="chapter0">美好的每一天</h1>
+    <hr class="custom-hr">
+    <h2 id="chapter1">一幕&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;地狱</h2>
+</div>
+</body>
+</html>
