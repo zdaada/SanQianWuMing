@@ -1,52 +1,10 @@
 <!DOCTYPE html>
 <html lang="ch">
 <head>
-    <title>日记</title>
+    <title id="PageTitle"></title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./script.js"></script>
     <style>
-        body {
-            display: flex;
-            flex-direction: row;
-            font-family: Arial, sans-serif;
-            background-color: black;
-            color: #d7d7d7;
-        }
-
-        #sidebar {
-            position: fixed;
-            width: 200px;
-            padding: 20px;
-        }
-
-        #content {
-            flex-grow: 1;
-            padding: 20px;
-            margin-left: 220px; /* 侧边栏的宽度加上间距 */
-        }
-
-        h1 {
-            text-align: center;
-            margin-left: -100px; /* 侧边栏的宽度加上间距 */
-        }
-
-        ul {
-            list-style-type: none;
-            padding: 0;
-        }
-
-        li {
-            margin-bottom: 10px;
-        }
-
-        a {
-            text-decoration: none;
-            color: #d7d7d7;
-        }
-
-        a:hover {
-            text-decoration: none;
-            color: #ff0000;
-        }
-
         .bg{
             width: 1200px;
             height: 660px;
@@ -80,7 +38,7 @@
         </li>
     </ul>
 </div>
-<div id="content">
+<div class="content">
     <div class="bgd">
         <img src="./assets/Background.jpg" alt="background" class="bg">
     </div>
