@@ -33,6 +33,14 @@ body {
     flex-direction: column;
 }
 
+.custom-hr {
+    background-color: var(--text-color);
+    height: 1px;
+    width: 82.5%;
+    margin: 10px 0;
+    border: none;
+    margin-left: 240px;
+}
 
 h1 {
     text-align: center;
@@ -58,11 +66,3 @@ a:hover {
     color: var(--a-color);
 }
 
-.custom-hr {
-    background-color: var(--text-color);
-    height: 1px;
-    width: 80%;
-    margin: 10px 0;
-    border: none;
-    margin-left: 240px;
-}
