@@ -7,7 +7,6 @@ html {
     --a-color: #cd0000;
 }
 
-/*noinspection ALL*/
 body {
     display: flex;
     flex-direction: row;
@@ -32,18 +31,11 @@ body {
     display: flex;
     flex-direction: column;
 }
-<<<<<<< HEAD
 
 .custom-hr {
     background-color: var(--text-color);
     height: 1px;
     width: 82.5%;
-=======
-.custom-hr {
-    background-color: var(--text-color);
-    height: 1px;
-    width: 80%;
->>>>>>> 0b91b1cbec389c3cc6e86acb552e17c93e803797
     margin: 10px 0;
     border: none;
     margin-left: 240px;
@@ -73,7 +65,3 @@ a:hover {
     color: var(--a-color);
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 0b91b1cbec389c3cc6e86acb552e17c93e803797
