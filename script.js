@@ -7,5 +7,3 @@ let dynamicTitle = "美好的每一天";
 // 将动态标题赋值给 title 标签
 titleElement.innerText = dynamicTitle;
 
-// 获取图片元素
-let bgImage = document.getElementsByClassName("bg");
