@@ -4,25 +4,14 @@
     <title id="PageTitle"></title>
     <link rel="stylesheet" href="./styles.css">
     <link rel="icon" href="./assets/icon.png" type="image/png">
-    <style>
-        .content{
-            margin-left: 620px;
-            text-align: center;
-        }
-        .custom-hr{
-            width: 120%;
-            margin-left: 240px;
-        }
-        h1{
-            margin-left: -10px; /* 侧边栏的宽度加上间距 */
-            margin-bottom: -20px;
-        }
-    </style>
     <script src="./script.js"></script>
 </head>
 <body>
+<!-- 侧边栏空心隔 -->
+<div style="display: flex;margin: 20px;width: 200px;height: 100vh;"></div>
+<!-- 侧边栏内容 -->
 <div id="sidebar">
-    <a class="button" href="list.html">
+    <a class="button" href="list.html" id="listtitle">
         <h2>目录</h2>
     </a>
     <ul>
@@ -31,14 +20,15 @@
                 <h4>过渡诗</h4>
             </a>
         </li>
-
     </ul>
 </div>
-<div class="container">
-    <div class="content">
+<!-- 主区域 -->
+<div id="container">
+    <div id="title">
         <h1 id="chapter0">美好的每一天</h1>
-    </div><!--    标题-->
-    <div class="content">
+    </div>
+    <hr class="custom-hr">
+    <div class="content" >
         <p>依旧是黄昏</p>
         <p>依旧是那个学校</p>
         <p>依旧是那个教室</p>
@@ -78,8 +68,7 @@
         <p>天使不见了踪影</p>
         <p>天使与恶魔的话剧落下帷幕</p>
     </div>
+
 </div>
-
 </body>
-
 </html>

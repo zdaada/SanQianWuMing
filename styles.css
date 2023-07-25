@@ -1,67 +1,65 @@
 html {
     scroll-behavior: smooth;
 }
-
 :root {
     --text-color: #c8c8c8;
     --a-color: #cd0000;
 }
-
 body {
     display: flex;
-    flex-direction: row;
-    font-family: Arial, sans-serif;
     background-color: black;
     color: var(--text-color);
+    margin: 0;
+    height: 100vh;
 }
-
-
 #sidebar {
-    position: fixed;
+    margin: 20px;
     width: 200px;
+    position: fixed;
+    height: 100%;
+}
+#listtitle{
+    font-size: inherit;
+    display: flex;
+    align-items: center;
+    width: 48px;
+    height: 32px;
+}
+#container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
     padding: 20px;
 }
-
+#title{
+    display: flex;
+    /*height: 300px;*/
+    justify-content: center;
+}
 .content {
     flex-grow: 1;
-    padding: 20px;
-    margin-left: 220px; /* 侧边栏的宽度加上间距 */
+    flex: 1;
 }
-.container {
-    display: flex;
-    flex-direction: column;
-}
-
 .custom-hr {
     background-color: var(--text-color);
     height: 1px;
-    width: 82.5%;
-    margin: 10px 0;
-    border: none;
-    margin-left: 240px;
+    width: 100%;
 }
 
-h1 {
-    text-align: center;
-    margin-left: -100px; /* 侧边栏的宽度加上间距 */
-}
 
 ul {
     list-style-type: none;
     padding: 0;
 }
-
 li {
     margin-bottom: 10px;
 }
 
 a {
-    text-decoration: none;
+    text-decoration:none;
     color: var(--text-color);
 }
-
 a:hover {
-    text-decoration: none;
     color: var(--a-color);
 }
 

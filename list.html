@@ -7,47 +7,59 @@
     <script src="./script.js"></script>
     <style>
         .bg{
-            width: 1200px;
-            height: 660px;
-        }
-        .bgd{
-            text-align: center;
+            width: 90%;
+            height: 100%;
         }
     </style>
 </head>
 <body>
-<div id="sidebar">
-    <a class="button" href="list.html">
-        <h2>目录</h2>
-    </a>
-    <a class="button" href="list.html">
-        <h4>章节</h4>
-    </a>    <ul>
-        <li>
-            <a href="#chapter0">
-                <a class="button" href="main0.html">
-                    <h5>序章</h5>
+    <div style="display: flex;margin: 20px;width: 200px;height: 100vh;"></div>
+    <div id="sidebar">
+        <a class="button" href="list.html" id="listtitle">
+            <h2>目录</h2>
+        </a>
+
+        <ul>
+            <li>
+                <a class="button" href="list.html">
+                    <h4>章节</h4>
                 </a>
-            </a>
-        </li>
-        <li>
-            <a href="#chapter1">
-                <a class="button" href="main1.html">
-                    <h5>第一章</h5>
-                </a>
-            </a>
-            <a href="#chapter1.5">
-                <a class="button" href="main1.5.html">
-                    <h5>过渡诗</h5>
-                </a>
-            </a>
-        </li>
-    </ul>
-</div>
-<div class="content">
-    <div class="bgd">
-        <img src="./assets/Background.jpg" alt="background" class="bg">
+            </li>
+            <li>
+
+                    <a class="button" href="main0.html">
+                        <h5>序章</h5>
+                    </a>
+
+            </li>
+            <li>
+
+                    <a class="button" href="main1.html">
+                        <h5>第一章</h5>
+                    </a>
+
+
+            </li>
+            <li>
+
+                    <a class="button" href="main1.5.html">
+                        <h5>过渡诗</h5>
+                    </a>
+
+
+            </li>
+            <li>
+                    <a class="button" href="main2.html">
+                        <h5>第二章</h5>
+                    </a>
+
+            </li>
+        </ul>
     </div>
-</div>
+    <div id="container">
+        <div class="content" style="text-align: center">
+            <img src="./assets/Background.jpg" alt="background" class="bg">
+        </div>
+    </div>
 </body>
 </html>
